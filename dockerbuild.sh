@@ -3,4 +3,4 @@ xhost +local:docker
 
 ## Buildando o docker
 # docker build . -f Dockerfile -t nomedodocker
-docker build . -f Dockerfile -t firasim
+docker build . -f Dockerfile -t thunderatz/firasim:light

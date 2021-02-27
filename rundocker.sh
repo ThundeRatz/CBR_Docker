@@ -1,4 +1,4 @@
-DOCKER_IMAGE="firasim"
+DOCKER_IMAGE="thunderatz/firasim:light"
 
 # Executando o docker
 docker run  -it \

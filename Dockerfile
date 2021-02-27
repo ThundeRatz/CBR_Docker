@@ -50,4 +50,4 @@ RUN mkdir -m 700 /tmp/runtime-root
 ENV XDG_RUNTIME_DIR=/tmp/runtime-root
 
 # Run FIRASim and VSSReferee
-CMD /firasim_ws/VSSReferee/bin/VSSReferee & /firasim_ws/FIRASim/bin/FIRASim
+CMD /firasim_ws/VSSReferee/bin/VSSReferee & /firasim_ws/FIRASim/bin/FIRASim -H
